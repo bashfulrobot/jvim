@@ -1,5 +1,5 @@
 {pkgs, ...}: {
-  colorschemes.kanagawa = {
+  colorschemes.tokyonight = {
     enable = pkgs.lib.mkDefault true;
   };
 }
