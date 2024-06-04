@@ -1,5 +1,12 @@
 # JeezyVim
 
+## CREDIT
+
+I simply forked as I have a preference for a minimal dashboard. I get distracted easily! 😅
+JeezyVim is exactly what I need to stay focused and productive. Kudos to the original author!
+
+- Credit: [LGUG2Z/JeezyVim:](https://github.com/LGUG2Z/JeezyVim)
+
 JeezyVim is a declarative NeoVim configuration built with
 [NixVim](https://github.com/nix-community/nixvim).
 
@@ -77,7 +84,6 @@ to enable when you install `pkgs.jeezyvim`? No problem!
             key = "-";
           }
         ];
-
 
         plugins = {
           lsp.servers = {
