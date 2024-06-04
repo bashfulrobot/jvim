@@ -30,7 +30,7 @@ dashboard.section.buttons.val = {
     '󱝩  Recently used files',
     ':Telescope oldfiles theme=dropdown<CR>'
   ),
-  dashboard.button('q', '  Quit JeezyVim', ':qa<CR>'),
+  dashboard.button('q', '  Quit nvim', ':qa<CR>'),
 }
 
 dashboard.section.footer.val = ''
