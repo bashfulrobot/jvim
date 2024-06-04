@@ -7,6 +7,8 @@ JeezyVim is exactly what I need to stay focused and productive. Kudos to the ori
 
 - Credit: [LGUG2Z/JeezyVim:](https://github.com/LGUG2Z/JeezyVim)
 
+## Original Readme
+
 JeezyVim is a declarative NeoVim configuration built with
 [NixVim](https://github.com/nix-community/nixvim).
 
