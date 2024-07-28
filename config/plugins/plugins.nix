@@ -24,6 +24,7 @@
     sleuth.enable = pkgs.lib.mkDefault true;
     nvim-tree = {
       enable = pkgs.lib.mkDefault true;
+      updateFocusedFile.enable = pkgs.lib.mkDefault true;
     };
     toggleterm = {
       enable = pkgs.lib.mkDefault true;
@@ -41,11 +42,6 @@
       enable = pkgs.lib.mkDefault true;
       highlight = pkgs.lib.mkDefault true;
       lsp.autoAttach = pkgs.lib.mkDefault true;
-    };
-    better-escape = {
-      enable = pkgs.lib.mkDefault true;
-      keys = "<Esc>";
-      mapping = ["jk"];
     };
     nvim-colorizer.enable = pkgs.lib.mkDefault true;
     marks.enable = pkgs.lib.mkDefault true;
